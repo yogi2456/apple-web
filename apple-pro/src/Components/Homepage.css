@@ -1,0 +1,322 @@
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+.navbar1 {
+    width: 70%;
+    margin: auto;
+    height: 40px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    color: rgb(173, 169, 169);
+    font-size: 12px;
+}
+.navbar1 > p {
+    margin-top: 17px;
+}
+.iphoneimg {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    background-size: contain;
+    margin-top: -30px;
+}
+.black {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    margin-top: -25px;
+}.black > h1 {
+    font-size: 50px;
+    color: white;
+    padding-top: 45px;
+}
+.black > h3 {
+    font-size: 30px;
+    color: white;
+    margin-top: -25px;
+}
+.black1 {
+    display: flex;
+    color: blue;
+    width: 20%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    font-size: 25px;
+    margin-top: -20px;
+}
+.black2 {
+    display: flex;
+    margin-left: 25px;
+}
+.black2 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.black3 {
+    display: flex;
+    margin-left: 25px;
+}
+.black3 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.iphoneimg1 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.apple.com/v/home/be/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-size: contain;
+}
+.white {
+    width: 100%;
+    height: 150px;
+    background-color: #F5F5F7;
+    margin-top: -15px;
+}.white > h1 {
+    font-size: 50px;
+    color: black;
+    padding-top: 45px;
+}
+.white > h3 {
+    font-size: 30px;
+    color: black;
+    margin-top: -25px;
+}
+.white1 {
+    display: flex;
+    color: blue;
+    width: 20%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    font-size: 25px;
+    margin-top: -20px;
+}
+.white2 {
+    display: flex;
+    margin-left: 25px;
+}
+.white2 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.white3 {
+    display: flex;
+    margin-left: 25px;
+}
+.white3 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.iphoneimg2 {
+    width: 100%;
+    height: 400px;
+    background-image: url(https://www.apple.com/v/home/be/images/heroes/apple-watch-series-9/hero_apple_watch_series_9_order__d0fi9mb84dci_large.jpg);
+    background-size: contain;
+}
+.watch {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    margin-top: -15px;
+}.watch > h1 {
+    font-size: 50px;
+    color: white;
+    padding-top: 45px;
+}
+.watch > h3 {
+    font-size: 30px;
+    color: white;
+    margin-top: -25px;
+}
+.watch1 {
+    display: flex;
+    color: blue;
+    width: 20%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    font-size: 25px;
+    margin-top: -20px;
+}
+.watch2 {
+    display: flex;
+    margin-left: 25px;
+}
+.watch2 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.watch3 {
+    display: flex;
+    margin-left: 25px;
+}
+.watch3 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.image {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid blue; */
+    margin-top: 15px;
+}
+.image1 {
+    width: 98%;
+    margin: auto;
+    height: 500px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.image2 {
+    width: 49.5%;
+    height: 500px;
+    /* border: 1px solid green; */
+    background-image: url(https://www.apple.com/v/ipad-pro/am/images/overview/hero/hero__gb2msr725aa2_large.jpg);
+}
+.watchi {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    margin-top: -15px;
+}
+.watchi > h1 {
+    font-size: 30px;
+    color: white;
+    padding-top: 35px;
+}
+.watchi > h3 {
+    font-size: 20px;
+    color: white;
+    margin-top: -25px;
+}
+.watchi1 {
+    display: flex;
+    color: blue;
+    width: 40%;
+    margin: auto;
+    font-size: 25px;
+    margin-top: -30px;
+}
+.watchi2 {
+    display: flex;
+    margin-left: 25px;
+}
+.watchi2 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.watchi3 {
+    display: flex;
+    margin-left: 25px;
+}
+.watchi3 > p:nth-child(2) {
+    margin-left: 8px;
+    font-size: 16px;
+    margin-top: 33px;
+}
+.image3 {
+    width: 49.5%;
+    height: 500px;
+    /* border: 1px solid green; */
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/hero/hero_endframe__dz973mndvu82_large.jpg);
+    background-size: cover;
+}
+.girl {
+    display: flex;
+    color: white;
+    margin-left: 40%;
+}
+.girl > p {
+    margin-top: 28px;
+}
+.girl > h1 {
+    margin-left: 10px;
+}
+.image3 > h2 {
+    color: white;
+    font-size: 20px;
+    margin-top: -20px;
+}
+.image3 > p {
+    color: white;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.girl1 {
+    display: flex;
+    margin-left: 300px;
+    margin-top: -15px;
+}
+.girl1 > p:nth-child(1) {
+    color: blue;
+    font-size: 18px;
+}
+.girl1 > p:nth-child(2) {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+.clock2 {
+    width: 49.5%;
+    height: 500px;
+    /* border: 1px solid green; */
+    background-image: url(https://www.apple.com/v/macbook-air-13-and-15-m2/b/images/overview/routers/trade_in__f88qe6u6wpea_large.jpg);
+    background-size: cover;
+}
+.clock3 {
+    width: 49.5%;
+    height: 500px;
+    /* border: 1px solid green; */
+    background-image: url(https://www.apple.com/v/airpods-pro/i/images/overview/case_front__r6ng7f1x18a6_large.png);
+    background-size: cover;
+}
+.watchii {
+    width: 100%;
+    height: 150px;
+    margin-top: -15px;
+}
+.watchii > h1 {
+    font-size: 30px;
+    color: white;
+    padding-top: 35px;
+}
+.watchii > h3 {
+    font-size: 20px;
+    color: white;
+    margin-top: -25px;
+}
+.full {
+    width: 100%;
+    height: 600px;
+    margin-top:30px;
+}
+.full1 {
+    width: 80%;
+    margin: auto;
+    height: 600px;
+}
+.footer {
+    width: 100%;
+    height: 500px;
+    background-color: #F5F5F7;
+}
+.footer1 {
+    width: 80%;
+    margin: auto;
+}
+.footer1 > p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: gray;
+    padding-top: 30px;
+}
+
