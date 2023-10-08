@@ -1,0 +1,119 @@
+.get {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    /* border: 1px solid blue; */
+}
+.get1 {
+    width: 58%;
+    margin: auto;
+    display: flex;
+}
+.get1 > p:nth-child(2) {
+    margin-left: 7px;
+    color: #145fe1;
+}
+.get1 > p:nth-child(3) {
+    margin-left: 7px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.get2 {
+    width: 100%;
+    background-color: #F5F5F7;
+}
+.get3 {
+    width: 75%;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.get4 {
+    text-align: left;
+    font-size: 22px;
+    margin-top: 20px;
+    color: gray;
+}
+.get4 > h1:nth-child(2) {
+    margin-top: -25px;
+}
+.get5 {
+    display: flex;
+    margin-top: 30px;
+}
+.get5 > div:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+.get5 > div:nth-child(2) {
+    margin-left: 10px;
+}
+.get5 > div:nth-child(2) > p:nth-child(2) {
+    margin-top: -10px;
+    color: #145fe1;
+    text-align: left;
+}
+.get6 {
+    display: flex;
+}
+.get6 > div:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+.get6 > div:nth-child(2) {
+    margin-left: 10px;
+}
+.get6 > div:nth-child(2) > p:nth-child(2) {
+    margin-top: -10px;
+    color: #145fe1;
+    text-align: left;
+}
+.get7 {
+    margin-left: 12.5%;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 230px;
+}
+.get7 > p {
+    width: 10%;
+    height: 150px;
+}
+.get8 {
+    margin-left: 12.5%;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+    color: gray;
+}
+.get9 {
+    margin-left: 12.5%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.get10 {
+    width: 31%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-pro-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692910040844);
+}
+.get11 {
+    width: 31%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-iphone-15-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692719973220);
+}
+.get12 {
+    width: 31%;
+    height: 500px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-s9-202309?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1692720183508);
+}
