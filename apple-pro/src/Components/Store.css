@@ -193,12 +193,12 @@
 .get14 {
     width: 100%;
     height: 500px;
-    border: 1px solid blue;
-    margin-top: 20px;
+    /* border: 1px solid blue; */
+    margin-top: 40px;
 }
 .get15 {
     margin-left: 17.5%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 500px;
     display: flex;
     justify-content: space-between;
@@ -206,14 +206,14 @@
 .get16 {
     width: 78%;
     height: 500px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
 }
 .get16 > div:nth-child(1) {
     width: 49%;
     height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 30px;
     background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-help-202305?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1684946879038);
 }
@@ -244,7 +244,7 @@
 .get16 > div:nth-child(2) {
     width: 49%;
     height: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 30px;
     background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-video-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1694270835539);
 }
@@ -297,15 +297,16 @@
 .get17 {
     width: 20%;
     height: 500px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 .get17 > div:nth-child(1) {
     width: 100%;
     height: 240px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     border-radius: 30px 0px 0px 30px;
     background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626223748000);
     background-size: cover;
+    margin-top: -40px;
 }
 .get17 > div:nth-child(1) > p {
     margin-top: 40px;
@@ -313,15 +314,17 @@
     font-weight: 500;
     margin-left: 25px;
     text-align: left;
+    padding-top: 40px;
 }
 .get17 > div:nth-child(2) {
     width: 100%;
     height: 238px;
-    border: 1px solid brown;
+    /* border: 1px solid brown; */
     margin-top: 20px;
     border-radius: 30px 0px 0px 30px;
     background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626384443000);
     background-size: cover;
+    margin-top: -40px;
 }
 .get17 > div:nth-child(2) > p {
     margin-top: 60px;
@@ -329,6 +332,7 @@
     font-weight: 500;
     text-align: left;
     margin-left: 30px;
+    padding-top: 60px;
 }
 .get18 {
     margin-left: 17.5%;
@@ -340,7 +344,7 @@
 .get19 {
     width: 100%;
     height: 220px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .get20 {
     margin-left: 17.5%;
@@ -351,7 +355,7 @@
 .get20 > div {
     width: 24%;
     height: 220px;
-    background-color: white;
+    background-color: #FFFFFF;
     border-radius: 20px;
 }
 .get20 > div > p {
@@ -367,4 +371,303 @@
     margin-top: 50px;
     text-align: left;
     color: gray;
+}
+.get22 {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid blue; */
+}
+.get23 {
+    margin-left: 17.5%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.get24 {
+    width: 32%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-accessories-fine-woven-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692804127327);
+}
+.get24 > h2 {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.get24 > p {
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 25px;
+    font-size: 16px;
+}
+.get25 {
+    width: 24%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: white;
+}
+.get25 > img {
+    margin-top: 80px;
+}
+.get25 > p:nth-child(2) {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 14px;
+    color: red;
+}
+.get25 > p:nth-child(3) {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.get25 > p:nth-child(4) {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.get26 {
+    width: 24%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: white;
+}
+.get26 > img {
+    margin-top: 100px;
+}
+.get26 > p:nth-child(2) {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 14px;
+    color: red;
+}
+.get26 > p:nth-child(3) {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.get26 > p:nth-child(4) {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.get27 {
+    width: 16%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px 0px 0px 20px;
+    background-color: white;
+}
+.get27 > img {
+    margin-left: 110px;
+    margin-top: 90px;
+}
+.get27 > p:nth-child(2) {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 14px;
+    color: red;
+}
+.get27 > p:nth-child(3) {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.get27 > p:nth-child(4) {
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.get28 {
+    margin-left: 17.5%;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: left;
+    display: flex;
+}
+.get28 > h2:nth-child(1) {
+    color: black;
+}
+.get28 > h2:nth-child(2) {
+    color: gray;
+    margin-left: 10px;
+}
+.get29 {
+    width: 32%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-applemusic-202301?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1670389217380);
+}
+.get29 > h2 {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    font-size: 30px;
+}
+.get29 > p {
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 25px;
+    font-size: 18px;
+}
+.get30 {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid blue; */
+}
+.get31 {
+    margin-left: 17.5%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.get32 {
+    width: 38%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-tv-services-mls-202307?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1690223894831);
+}
+.get33 {
+    width: 38%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-subscriptions-202108_GEO_US?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1626375546000);
+}
+.get33 > h2 {
+    margin-left: 25px;
+    font-size: 28px;
+    text-align: left;
+    margin-top: 40px;
+}
+.get34 {
+    width: 20%;
+    height: 500px;
+    /* border: 1px solid black; */
+    border-radius: 20px 0px 0px 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-applecare-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1692730497948);
+}
+.get34 > h2 {
+    margin-left: 27px;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 27px;
+}
+.get34 > p {
+    margin-left: 27px;
+    text-align: left;
+    margin-top: -10px;
+    font-size: 16px;
+}
+.get35 {
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid blue; */
+}
+.get36 {
+    margin-left: 17.5%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}
+.get37 {
+    width: 32%;
+    height: 500px;
+    /* border: 1px solid brown; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-card-40-education-202108?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1627664746000);
+}
+.get37 > p {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+}
+.get37 > h2 {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 27px;
+}
+.get38 {
+    width: 32%;
+    height: 500px;
+    /* border: 1px solid brown; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-business-202209?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1660927783133);
+}
+.get38 > p {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+}
+.get38 > h2 {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 28px;
+    color: white;
+}
+.get39 {
+    width: 32%;
+    height: 500px;
+    /* border: 1px solid brown; */
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-gov-202301?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1670437406729);
+}
+.get39 > p {
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+}
+.get39 > h2 {
+    text-align: left;
+    margin-left: 25px;
+    font-size: 27px;
+    color: white;
+}
+.get40 {
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid blue; */
+    margin-top: 40px;
+}
+.get41 {
+    margin-left: 17.5%;
+    height: 70px;
+}
+.get41 > h1 {
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+}
+.get42 {
+    text-align: left;
+}
+.get42 > button {
+    width: 120px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #E2E2E4;
+    border-radius: 20px;
+    border: none;
+    outline: none;
 }

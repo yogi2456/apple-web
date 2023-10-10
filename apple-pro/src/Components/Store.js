@@ -153,6 +153,117 @@ function Store() {
         <div className='get21'>
           <h2>Accessories. Essentials that pair perfectly with your favorite devices.</h2>
         </div>
+
+        <div className='get22'>
+          <div className='get23'>
+            <div className='get24'>
+               <h2>Introducing FineWoven accessories</h2>
+               <p>Durable microtwill with a luxurious suidelike feel made from 68 percent post-consumer recycled content.</p>
+            </div>
+            <div className='get25'>
+              <img  style={{width: "80%", height: "50%"}} src='https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MT4J3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1693594197616'/>
+              <p>New</p>
+              <p>iPhone 15 Pro FineWoven case with a Magsafe - Taupe</p>
+              <p>$59.00</p>
+            </div>
+            <div className='get26'>
+              <img  style={{width: "80%", height: "50%"}} src='https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MT2N3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692994298447'/>
+              <p>New</p>
+              <p>iPhone FineWoven wallet with Magsafe - black</p>
+              <p>$59.00</p>
+            </div>
+            <div className='get27'>
+              <img  style={{width: "80%", height: "50%"}} src='https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJC3ref?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1692936507700'/>
+              <p>New</p>
+              <p>45mm Evergreen Link - M/L</p>
+              <p>$99.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='get28'>
+          <h2>Loud and clear.</h2> 
+          <h2>Unparalleled choices for rich, high-quality sound.</h2>
+        </div>
+
+        <div className='get22'>
+          <div className='get23'>
+            <div className='get29'>
+               <h2>Get 6 months of <br /> Apple Music free</h2>
+               <p>Included with your HomePod, AirPods, or select Beats Product.</p>
+            </div>
+            <div className='get25'>
+              <img  style={{width: "80%", height: "50%"}} src='https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MTJV3?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1694014871985'/>
+              <p>Free Engraving</p>
+              <p>AirPods Pro (2nd generation) with Magsafe charging case...</p>
+              <p>$249.00</p>
+            </div>
+            <div className='get26'>
+              <img  style={{width: "80%", height: "50%"}} src='https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-select-midnight-202210?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1670557210097'/>
+              <p>New</p>
+              <p>HomePod - Midnight</p>
+              <p>$299.00</p>
+            </div>
+            <div className='get27'>
+              <img  style={{width: "80%", height: "50%"}} src='https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/homepod-mini-select-yellow-202110?wid=200&hei=200&fmt=jpeg&qlt=95&.v=1632925510000'/>
+              <p>New</p>
+              <p>HomePod mini</p>
+              <p>$99.00</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='get28'>
+          <h2>The Apple experience.</h2> 
+          <h2>Do even more with Apple products and services.</h2>
+        </div>
+
+        <div className='get30'>
+          <div className='get31'>
+            <div className='get32'></div>
+            <div className='get33'>
+              <h2>Six Apple services. One <br /> easy subscription.</h2>
+            </div>
+            <div className='get34'>
+              <h2>We've got you co</h2>
+              <p>Applecare+ now comes with repairs for accidental damage</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='get28'>
+          <h2>Special stores.</h2> 
+          <h2>Exclusive savings for businesses, school, and more.</h2>
+        </div>
+
+        <div className='get35'>
+          <div className='get36'>
+            <div className='get37'>
+              <p>EDUCATION</p>
+              <h2>Save on Mac or iPad with education pricing.</h2>
+            </div>
+            <div className='get38'>
+              <p>BUSINESS</p>
+              <h2>From enterprise to small business, we'll work with you</h2>
+            </div>
+            <div className='get39'>
+              <p>GOVERNMENT</p>
+              <h2>Special pricing is available for state, local, and federal agencies.</h2>
+            </div>
+          </div>
+        </div>
+
+        <div className='get40'>
+          <div className='get41'>
+            <h1>Quick Links</h1>
+            <div className='get42'>
+              <button>Order Status</button>
+              <button>Shopping Help</button>
+              <button>Returns</button>
+              <button>Your Saves</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
