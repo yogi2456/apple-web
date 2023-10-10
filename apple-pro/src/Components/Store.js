@@ -80,9 +80,21 @@ function Store() {
         </div>
 
         <div className='get9'>
-          <div className='get10'></div>
-          <div className='get11'></div>
-          <div className='get12'></div>
+          <div className='get10'>
+            <p>IPHONE 15 PRO</p>
+            <h2>Titanium</h2>
+            <h4></h4>
+          </div>
+          <div className='get11'>
+            <p>IPHONE 15</p>
+            <h2>New Phoria</h2>
+            <h4></h4>
+          </div>
+          <div className='get12'>
+            <p>APPLE WATCH SERIES 9</p>
+            <h2>Smarter. Brighter. Mightier</h2>
+            <h4></h4>
+          </div>
         </div>
       </div>
     </div>
