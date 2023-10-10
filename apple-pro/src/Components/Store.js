@@ -83,18 +83,75 @@ function Store() {
           <div className='get10'>
             <p>IPHONE 15 PRO</p>
             <h2>Titanium</h2>
-            <h4></h4>
+            <h4>From $999 or $41.62/mo. for 24 mo.*</h4>
           </div>
           <div className='get11'>
             <p>IPHONE 15</p>
             <h2>New Phoria</h2>
-            <h4></h4>
+            <h4>From $799 or $33.29/mo. for 24 mo.*</h4>
           </div>
           <div className='get12'>
             <p>APPLE WATCH SERIES 9</p>
             <h2>Smarter. Brighter. Mightier</h2>
-            <h4></h4>
+            <h4>From $399 or $33.25/mo. for 24 mo.*</h4>
           </div>
+        </div>
+
+        <div className='get13'>
+          <h2>Help is here. Whenever and however you need it.</h2>
+        </div>
+
+        <div className='get14'>
+          <div className='get15'>
+            <div className='get16'>
+              <div>
+                <p>APPLE SPECIALIST</p>
+                <p>Shop one on one with a</p>
+                <p>Specialist. Online or in a store</p>
+              </div>
+              <div>
+                <p>New</p>
+                <p>Shop with a Specialist</p>
+                <p>over video.</p>
+                <p>Choose your next device</p>
+                <p>in a guided, one-way</p>
+                <p>video session.</p>
+              </div>
+            </div>
+            <div className='get17'>
+              <div>
+                <p>Get to know your need with a free personal</p>
+              </div>
+              <div>
+                <p>Get expert service and support at the Genius Bar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className='get18'>
+          <h2>The Apple Store difference. Even more reasons to shop with us.</h2>
+        </div>
+
+        <div className='get19'>
+          <div className='get20'>
+            <div>
+              <p>Enjoy two-hour delivery from an Apple store, free delivery, or easy pickup.</p>
+            </div>
+            <div>
+              <p>Trade in your current device. Get credit toward a new one.</p>
+            </div>
+            <div>
+              <p>Pay in full or pay over time. Your choice.</p>
+            </div>
+            <div>
+              <p>Get a personalized shopping experience the Apple Store app</p>
+            </div>
+          </div>
+        </div>
+
+        <div className='get21'>
+          <h2>Accessories. Essentials that pair perfectly with your favorite devices.</h2>
         </div>
       </div>
     </div>

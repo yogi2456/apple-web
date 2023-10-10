@@ -23,7 +23,7 @@
     background-color: #F5F5F7;
 }
 .get3 {
-    width: 75%;
+    width: 65%;
     margin: auto;
     /* border: 1px solid red; */
     display: flex;
@@ -72,7 +72,7 @@
     text-align: left;
 }
 .get7 {
-    margin-left: 12.5%;
+    margin-left: 17.5%;
     /* border: 1px solid black; */
     margin-top: 20px;
     display: flex;
@@ -84,14 +84,14 @@
     height: 150px;
 }
 .get8 {
-    margin-left: 12.5%;
+    margin-left: 17.5%;
     font-size: 20px;
     margin-top: 20px;
     text-align: left;
     color: gray;
 }
 .get9 {
-    margin-left: 12.5%;
+    margin-left: 17.5%;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
@@ -116,4 +116,255 @@
     /* border: 1px solid red; */
     border-radius: 20px;
     background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-watch-s9-202309?wid=400&hei=500&fmt=jpeg&qlt=95&.v=1692720183508);
+}
+.get10 > p {
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.get10 > h2 {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 25px;
+    color: white;
+    margin-top: 5px;
+}
+.get10 > h4 {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25px;
+    color: white;
+    margin-top: -15px;
+    font-weight: 400;
+}
+.get11 > p {
+    text-align: left;
+    font-size: 12px;
+    color: black;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.get11 > h2 {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 25px;
+    color: black;
+    margin-top: 5px;
+}
+.get11 > h4 {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25px;
+    color: black;
+    margin-top: -15px;
+    font-weight: 400;
+}
+.get12 > p {
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.get12 > h2 {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 25px;
+    color: white;
+    margin-top: 5px;
+}
+.get12 > h4 {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 25px;
+    color: white;
+    margin-top: -15px;
+    font-weight: 400;
+}
+.get13 {
+    margin-left: 17.5%;
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: left;
+    color: gray;
+}
+.get14 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid blue;
+    margin-top: 20px;
+}
+.get15 {
+    margin-left: 17.5%;
+    border: 1px solid red;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.get16 {
+    width: 78%;
+    height: 500px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+}
+.get16 > div:nth-child(1) {
+    width: 49%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-help-202305?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1684946879038);
+}
+.get16 > div:nth-child(1) > p:nth-child(1) {
+    margin-top: 30px;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+.get16 > div:nth-child(1) > p:nth-child(2) {
+    margin-top: 5px;
+    margin-left: 25px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+.get16 > div:nth-child(1) > p:nth-child(3) {
+    margin-left: 25px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    margin-top: -27px;
+}
+.get16 > div:nth-child(2) {
+    width: 49%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-video-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1694270835539);
+}
+.get16 > div:nth-child(2) > p:nth-child(1) {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: red;
+    text-align: left;
+}
+.get16 > div:nth-child(2) > p:nth-child(2) {
+    text-align: left;
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+    letter-spacing: -1px;
+}
+.get16 > div:nth-child(2) > p:nth-child(3) {
+    text-align: left;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+    letter-spacing: -1px;
+}
+.get16 > div:nth-child(2) > p:nth-child(4) {
+    text-align: left;
+    margin-top: -18px;
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+}
+.get16 > div:nth-child(2) > p:nth-child(5) {
+    text-align: left;
+    margin-top: -18px;
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+}
+.get16 > div:nth-child(2) > p:nth-child(6) {
+    text-align: left;
+    margin-top: -18px;
+    font-size: 18px;
+    color: white;
+    margin-left: 30px;
+}
+.get17 {
+    width: 20%;
+    height: 500px;
+    border: 1px solid green;
+}
+.get17 > div:nth-child(1) {
+    width: 100%;
+    height: 240px;
+    border: 1px solid brown;
+    border-radius: 30px 0px 0px 30px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-apps-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626223748000);
+    background-size: cover;
+}
+.get17 > div:nth-child(1) > p {
+    margin-top: 40px;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 25px;
+    text-align: left;
+}
+.get17 > div:nth-child(2) {
+    width: 100%;
+    height: 238px;
+    border: 1px solid brown;
+    margin-top: 20px;
+    border-radius: 30px 0px 0px 30px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-25-genius-202108?wid=960&hei=480&fmt=p-jpg&qlt=95&.v=1626384443000);
+    background-size: cover;
+}
+.get17 > div:nth-child(2) > p {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 30px;
+}
+.get18 {
+    margin-left: 17.5%;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: left;
+    color: gray;
+}
+.get19 {
+    width: 100%;
+    height: 220px;
+    border: 1px solid blue;
+}
+.get20 {
+    margin-left: 17.5%;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.get20 > div {
+    width: 24%;
+    height: 220px;
+    background-color: white;
+    border-radius: 20px;
+}
+.get20 > div > p {
+    margin-top: 70px;
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+}
+.get21 {
+    margin-left: 17.5%;
+    font-size: 18px;
+    margin-top: 50px;
+    text-align: left;
+    color: gray;
 }
