@@ -75,4 +75,78 @@
     color: white;
     font-size: 25px;
     font-weight: bold;
+}.ipro5 {
+    width: 100%;
+    height: 1100px;
+    border: 1px solid red;
+    background-color: #101010;
+}
+.ipro6 {
+    width: 80%;
+    margin: auto;
+    border: 1px solid blue;
+    height: 850px;
+}
+.ipro6 > h1 {
+    font-size: 55px;
+    margin-top: 130px;
+    text-align: left;
+    color: white;
+}
+.ipro7 {
+    display: flex;
+    margin-left: 65%;
+    margin-top: -95px;
+}
+.ipro7 > p:nth-child(1) {
+    font-size: 22px;
+    color: #1361e7;
+}
+.ipro7 > p:nth-child(2) {
+    margin-left: 10px;
+    font-size: 22px;
+}
+.ipro7 > p:nth-child(3) {
+    font-size: 22px;
+    margin-left: 35px;
+    color: #1361e7;
+}
+.ipro7 > p:nth-child(4) {
+    font-size: 22px;
+    margin-left: 10px;
+}
+.ipro8 {
+    background-image: url(https://www.apple.com/v/iphone-15-pro/b/images/overview/highlights/video/highlights_action_button_endframe__gewegw9gajee_large.jpg);
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+}
+.ipro8 > p {
+    color: white;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.ipro8 > p:nth-child(1) {
+    margin-top: 10px;
+}
+.ipro8 > p:nth-child(2) {
+    margin-top: -25px;
+}
+.ipro9 > button {
+    width: 170px;
+    height: 60px;
+    background-color: #2E2E30;
+    border-radius: 30px;
+    margin-top: 110px;
+    margin-left: 45%;
+}
+.ipro9 > button > p:nth-child(1) {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 50px;
 }

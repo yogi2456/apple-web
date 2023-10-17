@@ -41,6 +41,33 @@ function Iphone15pro() {
             <button>Buy</button>
             <p>From $999 or $41.62/mo. for 24 mo.1</p>
         </div>
+
+        <div className='ipro5'>
+            <div className='ipro6'>
+                <h1>Get the highlights.</h1>
+                <div className='ipro7'>
+                    <p>Watch the film</p>
+                    <p><i class="fa-regular fa-circle-play" style={{color: "#1361e7"}}></i></p>
+                    <p>Watch the event</p>
+                    <p><i class="fa-solid fa-chevron-right fa-s" style={{color: "#1361e7"}}></i></p>
+                </div>
+                <div className='ipro8'>
+                    <p>All-new Action button.</p>
+                    <p>What will yours do?</p>
+                </div>
+                <div className='ipro9'>
+                    <button>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                        <p></p>
+                    </button>
+                    <div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </>
   )
 }
