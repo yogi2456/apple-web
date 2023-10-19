@@ -78,8 +78,8 @@ function Homepage() {
             <div className='image1'>
                 <div className='image2'>
                 <div className='watchi'>
-            <h1>iPhone 15 Pro</h1>
-            <h3>New camera. New design. Newphoria</h3>
+            <h1>iPad</h1>
+            <h3>Lovable. Drawable. Magical.</h3>
             <div className='watchi1'>
                 <div className='watchi2'>
                     <p>Learn more</p>
@@ -94,7 +94,7 @@ function Homepage() {
                 </div>
                 <div className='image3'>
                     <div className='girl'>
-                        <p><i class="fa-brands fa-apple fa-xl" style={{color: "#FFFFFF"}}></i></p>
+                        <p><i class="fa-brands fa-apple fa-xl" style={{color: "black"}}></i></p>
                         <h1>Vision Pro</h1>
                     </div>
                     <h2>Welcome to the era of spatial Computing</h2>
@@ -111,7 +111,7 @@ function Homepage() {
         <div className='image'>
             <div className='image1'>
                 <div className='clock2'>
-                <div className='watchii'>
+                <div className='watchii1'>
             <h1>MacBook Air 15" </h1>
             <h3>Impressively big. Impossibly thin.</h3>
             <div className='watchi1'>

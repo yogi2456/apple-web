@@ -185,22 +185,24 @@
     width: 49.5%;
     height: 500px;
     /* border: 1px solid green; */
-    background-image: url(https://www.apple.com/v/ipad-pro/am/images/overview/hero/hero__gb2msr725aa2_large.jpg);
+    background-image: url(https://www.apple.com/v/home/be/images/promos/ipad/promo_ipad__fioegapg12qi_large.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .watchi {
     width: 100%;
     height: 150px;
-    background-color: black;
+    
     margin-top: -15px;
 }
 .watchi > h1 {
     font-size: 30px;
-    color: white;
+    color: black;
     padding-top: 35px;
 }
 .watchi > h3 {
     font-size: 20px;
-    color: white;
+    color: black;
     margin-top: -25px;
 }
 .watchi1 {
@@ -233,27 +235,30 @@
     width: 49.5%;
     height: 500px;
     /* border: 1px solid green; */
-    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/hero/hero_endframe__dz973mndvu82_large.jpg);
+    background-image: url(https://www.apple.com/v/home/be/images/promos/apple-vision-pro/promo_apple_vision_pro__f4v4zp0sum2y_large.jpg);
     background-size: cover;
+    background-position: center;
 }
 .girl {
     display: flex;
-    color: white;
+    color: black;
     margin-left: 40%;
 }
 .girl > p {
     margin-top: 28px;
+    margin-top: 310px;
 }
 .girl > h1 {
     margin-left: 10px;
+    margin-top: 300px;
 }
 .image3 > h2 {
-    color: white;
+    color: black;
     font-size: 20px;
     margin-top: -20px;
 }
 .image3 > p {
-    color: white;
+    color: black;
     font-size: 16px;
     margin-top: -10px;
 }
@@ -275,15 +280,17 @@
     width: 49.5%;
     height: 500px;
     /* border: 1px solid green; */
-    background-image: url(https://www.apple.com/v/macbook-air-13-and-15-m2/b/images/overview/routers/trade_in__f88qe6u6wpea_large.jpg);
+    background-image: url(https://www.apple.com/v/home/be/images/promos/macbook-air-15/promo_macbook_air_15_midnight__3zojl1nanrme_large.jpg);
     background-size: cover;
+    background-position: center;
 }
 .clock3 {
     width: 49.5%;
     height: 500px;
     /* border: 1px solid green; */
-    background-image: url(https://www.apple.com/v/airpods-pro/i/images/overview/case_front__r6ng7f1x18a6_large.png);
+    background-image: url(https://www.apple.com/v/home/be/images/promos/airpods-pro/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
     background-size: cover;
+    background-position: center;
 }
 .watchii {
     width: 100%;
