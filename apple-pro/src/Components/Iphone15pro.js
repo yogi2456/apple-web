@@ -6,7 +6,7 @@ function Iphone15pro() {
     <>
     <div className='navbar'>
         <div className='navbar1'>
-            <p><i class="fa-brands fa-apple fa-xl" style={{color: "#FFFFFF"}}></i></p>
+            <p><i class="fa-brands fa-apple fa-xl" style={{color: "rgb(173, 169, 169"}}></i></p>
             <p>Store</p>
             <p>Mac</p>
             <p>iPad</p>

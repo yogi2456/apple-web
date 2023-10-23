@@ -1,0 +1,240 @@
+.buy {
+    width: 100%;
+    height: 745px;
+    background-color: #252525;
+}
+.buy1 {
+    padding-top: 10px;
+}
+.buy2 {
+    width: 60%;
+    margin: auto;
+    height: 720px;
+    background-color: white;
+    border-radius: 20px;
+}
+.buy3 {
+    width: 90%;
+    margin: auto;
+    height: 580px;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.buyl {
+    width: 48%;
+    height: 580px;
+    /* border: 1px solid red; */
+}
+.buyl1 > button {
+    width: 140px;
+    height: 35px;
+    margin-top: 40px;
+    background-color: #E8E8ED;
+    border-radius: 20px;
+    justify-content: center;
+    border: none;
+    font-size: 16px;
+}
+.buyl3 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: auto;
+    margin-top: -15px;
+}
+.buyl3 > p:nth-child(1) {
+    width: 8px;
+    height: 8px;
+    background-color: black;
+    border-radius: 50%;
+}
+.buyl3 > p:nth-child(2) {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(191, 135, 68);
+    border-radius: 50%;
+}
+.buyl3 > p:nth-child(3) {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(162, 68, 162);
+    border-radius: 50%;
+}
+.buyl3 > p:nth-child(4) {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(41, 163, 96);
+    border-radius: 50%;
+}
+.buyl3 > p:nth-child(5) {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(46, 155, 163);
+    border-radius: 50%;
+}
+.buyl3 > p:nth-child(6) {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(183, 20, 20);
+    border-radius: 50%;
+}
+.buyl4 {
+    margin-top: 35px;
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+.buyl5 {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+.buyl5 > p:nth-child(1) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(212, 117, 117);
+}
+.buyl5 > p:nth-child(2) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(58, 82, 110);
+}
+.buyl5 > p:nth-child(3) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(143, 150, 64);
+}
+.buyl5 > p:nth-child(4) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(90, 101, 168);
+}
+.buyr {
+    width: 48%;
+    height: 580px;
+    /* border: 1px solid red; */
+}
+.buyr > p {
+    margin-top: 40px;
+    text-align: left;
+    font-size: 16px;
+    color: red;
+}
+.buyr > h2 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 500;
+    margin-top: -20px;
+}
+.buyr1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -35px;
+}
+.buyr1 > p {
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+}
+.buyr1 > button {
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    background-color:#338DE9;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.buyr2 > p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 5px;
+}
+.buyr2 > p:nth-child(2) {
+    border: 1px solid gray;
+    opacity: 0.3;
+    margin-top: 15px;
+}
+.buyr2 > p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+}
+.buyr2 > p:nth-child(4) {
+    border: 1px solid gray;
+    opacity: 0.3;
+    margin-top: 15px;
+}
+.buyr2 > p:nth-child(5) {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+}
+.buyr2 > p:nth-child(6) {
+    border: 1px solid gray;
+    opacity: 0.3;
+    margin-top: 15px;
+}
+.buyr2 > p:nth-child(7) {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+}
+.buyr2 > p:nth-child(8) {
+    border: 1px solid gray;
+    opacity: 0.3;
+    margin-top: 15px;
+}
+.buyr2 > p:nth-child(9) {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-top: 15px;
+}
+.buyr3 {
+    margin-top: -20px;
+    display: flex;
+}
+.buyr3 > p:nth-child(1) {
+    font-size: 20px;
+    color: #145fe1;
+}
+.buyr3 > p:nth-child(2) {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-top: 25px;
+}
+.buy4 {
+    width: 100%;
+    height: 140px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #F5F5F7;
+}
+.buy5 {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.buy6 > h2 {
+    font-size: 16px;
+    text-align: left;
+}
+.buy6 > p {
+    font-size: 14px;
+    text-align: left;
+}

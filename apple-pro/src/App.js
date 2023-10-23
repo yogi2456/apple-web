@@ -6,6 +6,7 @@ import Login from './Components/Login';
 import Register from './Components/Register';
 import Iphone15pro from './Components/Iphone15pro';
 import Bagcart from './Components/Bagcart';
+import Iphonebuy from './Components/Iphonebuy';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Register' element={<Register />} />
         <Route path='/iphone15pro' element={<Iphone15pro />} />
         <Route path='/Bagcart' element={<Bagcart />} />
+        <Route path='/iphonebuy' element={<Iphonebuy />} />
       </Routes>
 
     </div>
