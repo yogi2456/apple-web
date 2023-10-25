@@ -13,7 +13,7 @@
     /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
-    color: rgb(173, 169, 169);
+    color: black;
     font-size: 12px;
 }
 .navbar1 > p {
@@ -35,7 +35,7 @@
     background-color: #F5F5F7;
 }
 .shop3 {
-    width: 65%;
+    width: 80%;
     margin: auto;
     /* border: 1px solid red; */
     display: flex;
@@ -45,10 +45,7 @@
     text-align: left;
     font-size: 22px;
     margin-top: 20px;
-    color: gray;
-}
-.shop4 > h1:nth-child(2) {
-    margin-top: -25px;
+    color: black;
 }
 .shop5 {
     display: flex;
@@ -82,4 +79,553 @@
     margin-top: -10px;
     color: #145fe1;
     text-align: left;
+}
+.shop7 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-top: 50px;
+}
+.shop7 > p {
+    font-size: 18px;
+    color: #1d1d1f;
+}
+.shop7 > p:nth-child(2) {
+    margin-left: 50px;
+}
+.shop7 > p:nth-child(3) {
+    margin-left: 50px;
+}
+.shop7 > p:nth-child(4) {
+    margin-left: 50px;
+}
+.shop7 > p:nth-child(5) {
+    margin-left: 50px;
+}
+.shop7 > p:nth-child(6) {
+    margin-left: 50px;
+}
+.shop7 > p:nth-child(7) {
+    margin-left: 10px;
+}
+.shop8 {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+.shop9 {
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+}
+.shop9 > h1:nth-child(2) {
+    color: gray;
+    margin-left: 15px;
+}
+.shop10 {
+    display: flex;
+    justify-content: space-between;
+}
+.shop11 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+}
+.shop11 > p {
+    font-size: 14px;
+    color: red;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+.shop11 > h1 {
+    font-size: 30px;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+.shop12 {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.shop12 > p:nth-child(1) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(212, 117, 117);
+}
+.shop12 > p:nth-child(2) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(58, 82, 110);
+}
+.shop12 > p:nth-child(3) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(143, 150, 64);
+}
+.shop12 > p:nth-child(4) {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: rgb(90, 101, 168);
+}
+.shop13 {
+    display: flex;
+    justify-content: space-between;
+}
+.shop13 > p {
+    font-size: 14px;
+    margin-left: 30px;
+}
+.shop13 > button {
+    width: 70px;
+    height: 40px;
+    background-color: #145fe1;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-right: 30px;
+}
+.shop14 {
+    display: flex;
+    justify-content: space-between;
+}
+.shop15 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-compare-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1692912411334);
+}
+.shop15 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop15 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop16 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-specialist-video-202309?wid=480&hei=500&fmt=jpeg&qlt=95&.v=1694270835539);
+}
+.shop16 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: red;
+    text-align: left;
+}
+.shop16 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -5px;
+    color: white;
+}
+.shop16 > h2 {
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.shop17 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-tradein-video-card-202302?wid=389&hei=405&fmt=jpeg&qlt=95&.v=1677015907650);
+}
+.shop17 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop17 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -5px;
+    color: black;
+}
+.shop17 > h2 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 300px;
+    color: black;
+    font-weight: 500;
+}
+.shop18 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-tradein-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1692912409258);
+}
+.shop18 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop18 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop19 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-carriertrade-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1693606978377);
+}
+.shop19 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop19 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -5px;
+    color: black;
+}
+.shop19 > h2 {
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.shop20 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-applecard-202108?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1625761620000);
+}
+.shop20 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop20 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop21 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: contain;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-quick-start-202302?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1675444851447);
+}
+.shop21 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop21 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+    color: black;
+}
+.shop21 > h2 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 320px;
+    color: black;
+    font-weight: 500;
+}
+.shop22 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-setup-202304?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1680732480421);
+}
+.shop22 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop22 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop23 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: contain;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-video-card-50-activation-202303?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1677868375449);
+}
+.shop23 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop23 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+    color: black;
+}
+.shop23 > h2 {
+    font-size: 16px;
+    margin-left: 30px;
+    margin-top: 320px;
+    color: black;
+    font-weight: 500;
+}
+.shop24 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-business-202209?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1661535515827);
+}
+.shop24 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop24 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop25 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-government-202209_GEO_US?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1661537503726);
+}
+.shop25 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop25 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop26 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-40-veteran-202309?wid=400&hei=500&fmt=p-jpg&qlt=95&.v=1692805927436);
+}
+.shop26 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop26 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop27 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/store-card-50-tv-services-lessons-in-chemistry-202310?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1696949431686);
+}
+.shop27 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: white;
+    text-align: left;
+}
+.shop27 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: -5px;
+}
+.shop28 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-50-fitnessplus-202309?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1692912411316);
+}
+.shop28 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop28 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+.shop29 {
+    width: 32%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/watch-card-50-airpods-202209?wid=480&hei=500&fmt=p-jpg&qlt=95&.v=1661626394670);
+}
+.shop29 > p {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: gray;
+    text-align: left;
+}
+.shop29 > h1 {
+    margin-left: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: -5px;
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #F5F5F7;
+    margin-top: -10px;
+}
+.footer1 {
+    width: 80%;
+    margin: auto;
+}
+.footer1 > p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: gray;
+    text-align: left;
+}
+.footer2 {
+    padding-top: 50px;
+}
+.footer3 {
+    width: 100%;
+    padding-top: 20px;
+}
+.footer3 > div {
+    width: 80%;
+    margin: auto;
+    border: 1px solid gray;
+    opacity: 0.2;
+}
+.footer4 {
+    width: 100%;
+    margin-top: 20px;
+}
+.footer5 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer5 > div > h3 {
+    font-size: 14px;
+}
+.footer5 > div > h2 {
+    font-size: 14px;
+    margin-top: 30px;
+}
+.footer5 > div > p {
+    font-size: 12px;
 }
