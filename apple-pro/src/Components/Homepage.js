@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './Homepage.css'
+import { AuthContext } from './Context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
 function Homepage() {
+    const router = useNavigate();
+    const { state, Logout } = useContext(AuthContext);
   return (
     <div>
 
@@ -21,6 +25,9 @@ function Homepage() {
             <p>Support</p>
             <p><i class="fa-solid fa-magnifying-glass fa-xl" style={{color: "rgb(173, 169, 169)"}}></i></p>
             <p><i class="fa-solid fa-bag-shopping fa-xl" style={{color: "rgb(173, 169, 169)"}}></i></p>
+            {state?.user?.id ? <>
+            </>:<button onClick={() => router('/register')}>Sign in</button>}
+            <button onClick={Logout}>Logout</button>
         </div>
         </div>
 

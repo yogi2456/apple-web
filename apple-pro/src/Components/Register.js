@@ -1,7 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Register.css'
+import toast from 'react-hot-toast';
+import { useNavigate } from 'react-router-dom';
+import api from '../helpers/Axios.Config';
 
 function Register() {
+    const router = useNavigate();
+    const [userData, setUserData] = useState({name: "", email: "", password: ""});
+
+    const handleChange = (event) => {
+        setUserData({...userData, [event.target.name]: event.target.value})
+    }
+
+    const sendDataToBackend = async (event) => {
+        event.preventDefault();
+        // alert("Data submitted to backend..")
+        if (userData.name && userData.email && userData.password) {
+          if (userData.password.length >= 8) {
+            try {
+              const response = await api.post("/auth/register", { userData });
+              // const response = { data: { success: true } };
+              if (response.data.success) {
+                toast.success("Registeration successfull.")
+                setUserData({ name: "", email: "", password: "" })
+                router("/login")
+              } else {
+                throw new Error("Something went wrong..")
+              }
+            } catch (error) {
+              toast.error(error?.message)
+              console.log(error, "error here")
+            }
+          } else {
+            alert("Password must be 8 digit.")
+          }
+        } else {
+          alert("Please fill the all values..")
+        }
+      }
   return (
     <>
 
@@ -32,33 +68,12 @@ function Register() {
             <div className='register2'>
                 <h1>Register for faster checkout.</h1>
                 <h3>Register in to Apple Store</h3>
-                <div className='register16'>
-                    <div>
-                    <p>Name</p>
-                    <p>|</p>
-                    </div>
-                    <div>
-                        <p><i class="fa-regular fa-circle-right" style={{color: "#adadae"}}></i></p>
-                    </div>
-                </div>
-                <div className='register3'>
-                    <div>
-                        <p>Email</p>
-                        <p>|</p>
-                    </div>
-                    <div>
-                        <p><i class="fa-regular fa-circle-right" style={{color: "#adadae"}}></i></p>
-                    </div>
-                </div>
-                <div className='register4'>
-                    <div>
-                    <p>Password</p>
-                    <p>|</p>
-                    </div>
-                    <div>
-                        <p><i class="fa-regular fa-circle-right" style={{color: "#adadae"}}></i></p>
-                    </div>
-                </div>
+                <form onSubmit={sendDataToBackend}>
+                    <input className='register16' placeholder='Name' name='name' type='text' onChange={handleChange}/>
+                    <input className='register3' placeholder='Email' name='email' type='email' onChange={handleChange}/>
+                    <input className='register4' placeholder='Password' name='password' type='password' onChange={handleChange}/>
+                    <input className='registerr' value='Register'/>
+                </form>
                 <div className='register5'>
                     <p></p>
                     <p>Remember me</p>

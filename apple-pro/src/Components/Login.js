@@ -1,7 +1,46 @@
 import React from 'react'
 import './Login.css'
+import {useNavigate} from 'react-router-dom'
+import { useState } from 'react';
+import api from '../helpers/Axios.Config';
+import toast from 'react-hot-toast';
 
 function Login() {
+
+    const router = useNavigate();
+
+    const [userData, setUserData] = useState({email: "", password: ""});
+
+    const handleChange = (event) => {
+        setUserData({...userData, [event.target.name]: event.target.value})
+    }
+
+    const sendDataToBackend = async (event) => {
+        event.preventDefault();
+        // alert("Data submitted to backend..")
+        if (userData.email && userData.password) {
+          if (userData.password.length >= 8) {
+            try {
+              const response = await api.post("/auth/login", { userData });
+              // const response = { data: { success: true } };
+              if (response.data.success) {
+                toast.success("Login successfull.")
+                setUserData({ email: "", password: "" })
+                router("/")
+              } else {
+                throw new Error("Something went wrong..")
+              }
+            } catch (error) {
+              toast.error(error?.message)
+              console.log(error, "error here")
+            }
+          } else {
+            alert("Password must be 8 digit.")
+          }
+        } else {
+          alert("Please fill the all values..")
+        }
+      }
   return (
     <>
 
@@ -32,24 +71,11 @@ function Login() {
             <div className='login2'>
                 <h1>Login for faster checkout.</h1>
                 <h3>Login in to Apple Store</h3>
-                <div className='login3'>
-                    <div>
-                        <p>Email</p>
-                        <p>|</p>
-                    </div>
-                    <div>
-                        <p><i class="fa-regular fa-circle-right" style={{color: "#adadae"}}></i></p>
-                    </div>
-                </div>
-                <div className='login4'>
-                    <div>
-                    <p>Password</p>
-                    <p>|</p>
-                    </div>
-                    <div>
-                        <p><i class="fa-regular fa-circle-right" style={{color: "#adadae"}}></i></p>
-                    </div>
-                </div>
+                <form onSubmit={sendDataToBackend}>
+                    <input className='login3' placeholder='Email' name='email' type='email' onChange={handleChange}/>
+                    <input className='login4' placeholder='Password' name='password' type='password' onChange={handleChange}/>
+                    <input className='loginn' value='Login'/>
+                </form>
                 <div className='login5'>
                     <p></p>
                     <p>Remember me</p>
@@ -60,7 +86,7 @@ function Login() {
                 </div>
                 <div className='login7'>
                     <p>Don't have an Apple ID?</p>
-                    <p>Create yours now.</p>
+                    <p onClick={() => router('/register')}>Create yours now.</p>
                     <p><i class="fa-solid fa-square-arrow-up-right" style={{color: "#306acf"}}></i></p>
                 </div>
             </div>
