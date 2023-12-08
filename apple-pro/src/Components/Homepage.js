@@ -25,6 +25,7 @@ function Homepage() {
             <p>Support</p>
             <p><i class="fa-solid fa-magnifying-glass fa-xl" style={{color: "rgb(173, 169, 169)"}}></i></p>
             <p><i class="fa-solid fa-bag-shopping fa-xl" style={{color: "rgb(173, 169, 169)"}}></i></p>
+            {/* <h1>User: {state?.user?.name}</h1> */}
             {state?.user?.id ? <>
             </>:<button onClick={() => router('/register')}>Sign in</button>}
             <button onClick={Logout}>Logout</button>

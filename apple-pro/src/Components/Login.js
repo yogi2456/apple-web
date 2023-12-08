@@ -74,7 +74,7 @@ function Login() {
                 <form onSubmit={sendDataToBackend}>
                     <input className='login3' placeholder='Email' name='email' type='email' onChange={handleChange}/>
                     <input className='login4' placeholder='Password' name='password' type='password' onChange={handleChange}/>
-                    <input className='loginn' value='Login'/>
+                    <input className='loginn' type='submit' value='Login'/>
                 </form>
                 <div className='login5'>
                     <p></p>

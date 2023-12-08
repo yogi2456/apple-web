@@ -72,7 +72,7 @@ function Register() {
                     <input className='register16' placeholder='Name' name='name' type='text' onChange={handleChange}/>
                     <input className='register3' placeholder='Email' name='email' type='email' onChange={handleChange}/>
                     <input className='register4' placeholder='Password' name='password' type='password' onChange={handleChange}/>
-                    <input className='registerr' value='Register'/>
+                    <input className='registerr' type='submit' value='Register'/>
                 </form>
                 <div className='register5'>
                     <p></p>
